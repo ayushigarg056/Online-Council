@@ -1,0 +1,23 @@
+create table signup1(user_id varchar2(20), password varchar2(20), name varchar2(22), father_name varchar2(26), address varchar2(100), date1 number(6),
+ month number(6),year number(6),mob number(10), email varchar2(32), gender varchar2(16));
+
+
+
+create table userreport3(name varchar2(30), roll_no varchar2(10), rank varchar2(10), father_name varchar2(30), address varchar2(100), mob number(10),  email varchar2(34), gender varchar2(10), date_ number(6), month varchar2(6), year varchar2(6), course varchar2(8), category varchar2(12), occupation varchar2(18),
+collegecode1 varchar2(4), collegecode2 varchar2(4), collegecode3 varchar2(4));
+
+
+
+
+
+create table admin1(adminid varchar2(20), pass varchar2(15));
+
+insert into admin1 values('admin',12345);
+
+
+
+
+
+create table userenquiry(name varchar2(25),mob varchar2(10),email varchar2(30),city varchar2(15),enquiry varchar2(300));
+
+

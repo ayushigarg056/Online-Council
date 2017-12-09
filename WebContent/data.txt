@@ -1,0 +1,19 @@
+create table userreport2(name varchar2(20), roll-no varchar2(20), rank varchar2(22), f_name varchar2(26), address varchar2(100), mob varchar2(16), email varchar2(36), sex varchar2(10), date varchar2(4), month varchar2(8), year varchar2(6), course varchar2(8),category varchar2(8), occupations varchar2(16), collegecode1 varchar2(16), collegecode2 varchar2(16),collegecode3 varchar2(16));
+
+
+
+
+create table userreport6(name varchar2(30), roll_no varchar2(8), rank varchar2(5), father_name varchar2(30), address varchar2(100), mob number(10),  email varchar2(34), sex varchar2(10), date_ number(6), month number(6),year number(6),  course varchar2(8), category varchar2(8), occupation varchar2(8),
+collegecode1 varchar2(4), collegecode2 varchar2(4), collegecode3 varchar2(4));
+
+
+
+
+create table userreport3(name varchar2(30), roll_no varchar2(10), rank varchar2(10), father_name varchar2(30), address varchar2(100), mob number(10),  email varchar2(34), sex varchar2(10), date_ number(6), month varchar2(6), year varchar2(6), course varchar2(8), category varchar2(12), occupation varchar2(18),
+collegecode1 varchar2(4), collegecode2 varchar2(4), collegecode3 varchar2(4));
+
+
+
+create table admin1(adminid varchar2(20), pass varchar2(15));
+
+insert into admin1 values('admin',12345);
